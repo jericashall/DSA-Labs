@@ -1,0 +1,35 @@
+Encoding 10_in.txt -> 10_encoded.txt
+
+printFrequencyTable:
+
+10  
+ {4}
+13   {4}
+97  a {2}
+98  b {3}
+99  c {2}
+100  d {2}
+
+printQueue:
+
+97  a {2}
+99  c {2}
+100  d {2}
+98  b {3}
+10  
+ {4}
+13   {4}
+
+printEncodingTable:
+
+10  
+ {10}
+13   {00}
+97  a {010}
+98  b {111}
+99  c {011}
+100  d {110}
+
+Decoding 10_encoded.txt -> 10_decoded.txt
+
+!!! Files 10_in.txt and 10_decoded.txt are equal.

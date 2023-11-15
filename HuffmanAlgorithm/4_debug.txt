@@ -1,0 +1,29 @@
+Encoding 4_in.txt -> 4_encoded.txt
+
+printFrequencyTable:
+
+10  
+ {3}
+13   {3}
+97  a {4}
+98  b {2}
+
+printQueue:
+
+98  b {2}
+10  
+ {3}
+13   {3}
+97  a {4}
+
+printEncodingTable:
+
+10  
+ {01}
+13   {10}
+97  a {11}
+98  b {00}
+
+Decoding 4_encoded.txt -> 4_decoded.txt
+
+!!! Files 4_in.txt and 4_decoded.txt are equal.

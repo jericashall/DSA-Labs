@@ -1,0 +1,22 @@
+Graph edges: vertice1, vertice2, weight of the edge
+
+edge: 0, 1, 4
+edge: 0, 2, 1
+edge: 1, 2, 3
+edge: 1, 3, 6
+edge: 1, 4, 5
+edge: 1, 5, 4
+edge: 2, 3, 4
+edge: 3, 4, 2
+edge: 3, 5, 3
+edge: 4, 5, 2
+
+Kruskal spanning tree edges: vertice1, vertice 2, weight of the edge
+
+edge: 0, 2, 1
+edge: 3, 4, 2
+edge: 4, 5, 2
+edge: 1, 2, 3
+edge: 1, 5, 4
+
+Kruskal spanning tree weight is 12

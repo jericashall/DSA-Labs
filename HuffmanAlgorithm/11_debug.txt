@@ -1,0 +1,41 @@
+Encoding 11_in.txt -> 11_encoded.txt
+
+printFrequencyTable:
+
+10  
+ {2}
+13   {2}
+32    {2}
+97  a {1}
+101  e {3}
+104  h {1}
+114  r {2}
+117  u {1}
+
+printQueue:
+
+97  a {1}
+104  h {1}
+117  u {1}
+10  
+ {2}
+13   {2}
+32    {2}
+114  r {2}
+101  e {3}
+
+printEncodingTable:
+
+10  
+ {110}
+13   {111}
+32    {100}
+97  a {0110}
+101  e {00}
+104  h {0111}
+114  r {101}
+117  u {010}
+
+Decoding 11_encoded.txt -> 11_decoded.txt
+
+!!! Files 11_in.txt and 11_decoded.txt are equal.
